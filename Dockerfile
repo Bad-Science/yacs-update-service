@@ -8,5 +8,4 @@ COPY . $INSTALL_PATH
 
 RUN bundle install
 
-
 CMD ["whenever", "-w"]
