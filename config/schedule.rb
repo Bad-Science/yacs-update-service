@@ -20,9 +20,9 @@
 # Learn more: http://github.com/javan/whenever
 
 every 1.day do
-  rake update:full
+  rake 'update:full'
 end
 
 every 5.minutes do
-  rake update:quick
+  rake 'update:quick'
 end
